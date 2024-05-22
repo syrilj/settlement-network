@@ -4,18 +4,18 @@ The Entangled Rollup is a structure that utilizes Layer 2s (L2s) in combination 
 
 ## Overview
 
-![Entangled Rollup Overview](../assets/entangled-rollup.png)
+![Entangled Rollup Overview](../../assets/entangled-rollup.png)
 
 # Advantages
 
-- Secure
-- Cost Effective
-- Interoperable
+- Enables Bridging Across L2s
+- VM Agnostic
 
 # Disadvantages
 
 - Complexity
 - Long Proof Generation Times
+- No Current Working Solutions
 
 ## Resources
 
