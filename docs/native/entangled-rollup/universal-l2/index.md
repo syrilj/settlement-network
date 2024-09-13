@@ -18,6 +18,7 @@ The Universal L2 (UL2) is a versatile, secure, and cost-effective solution for c
 ## Disadvantages
 
 - Need to have access to the native mint function for the L2
+- Need to have a way to manage access control for new L1s and L2s entering this system
 
 ## Process
 

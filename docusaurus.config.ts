@@ -15,13 +15,18 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'settlement-network', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'zkMIPS', // Usually your GitHub org/user name.
+  projectName: 'settlement-network', // Usually your repo name.
   deploymentBranch: 'site',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -39,7 +44,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/settlement-network/docs/tree/main',
+          editUrl: 'https://github.com/zkMIPS/settlement-network/tree/main',
         },
         // blog: {
         //   showReadingTime: true,
@@ -57,6 +62,9 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
+    // mermaid: {
+    //   theme: { light: 'neutral', dark: 'forest' },
+    // },
     image: 'img/zkm-social-card.jpg',
     navbar: {
       title: 'Settlement Network',

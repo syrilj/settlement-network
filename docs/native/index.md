@@ -4,7 +4,7 @@ A system is considered natively verified if transactions are settled on the base
 
 # Advantages
 
-- No Additional Security Assuptions
+- No Additional Security Assumptions
 - Cost Effective
 
 # Disadvantages
